@@ -1,4 +1,4 @@
-# Nuxt Snippets for VS Code
+# Nuxt VSCode Snippets
 
 ![GitHub](https://img.shields.io/github/license/zhaolinlau/nuxt-vscode-snippets)
 ![Nuxt Version](https://img.shields.io/badge/Nuxt-3-00DC82?logo=nuxt)
