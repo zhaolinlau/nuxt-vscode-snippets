@@ -1,0 +1,113 @@
+{
+	"name": "nuxt-code-snippets",
+	"displayName": "Nuxt Code Snippets",
+	"description": "Supercharge your Nuxt development with powerful snippets",
+	"icon": "images/nuxt-logo.png",
+	"version": "1.0.0",
+	"publisher": "zhaolinlau",
+	"license": "MIT",
+	"author": {
+		"name": "Zhaolin Lau",
+		"email": "zhaolinlau@outlook.com",
+		"url": "https://github.com/zhaolinlau"
+	},
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./extension.js",
+	"keywords": [
+		"Nuxt",
+		"Vue",
+		"Nuxt 3",
+		"Vue 3",
+		"Pinia",
+		"Composition API",
+		"Nuxt Snippets",
+		"Vue Snippets",
+		"Nuxt 3 Snippets",
+		"Vue 3 Snippets",
+		"Pinia Snippets"
+	],
+	"categories": [
+		"Snippets"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zhaolinlau/nuxt-vscode-snippets.git"
+	},
+	"scripts": {
+		"build": "vsce package -o nuxt-vscode-snippets-$npm_package_version.vsix",
+		"install": "pnpm build && code --install-extension nuxt-vscode-snippets-$npm_package_version.vsix"
+	},
+	"contributes": {
+		"languages": [
+			{
+				"id": "vue",
+				"aliases": [
+					"Vue",
+					"vue"
+				],
+				"extensions": [
+					".vue"
+				]
+			}
+		],
+		"snippets": [
+			{
+				"language": "vue",
+				"path": "./snippets/vue/vue.code-snippets"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/vue/vue-template.code-snippets"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/vue/vue-script.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/vue/vue-script.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/vue/vue-script.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/vue/vue-router.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/vue/vue-router.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/pinia/pinia.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/pinia/pinia.code-snippets"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/nuxt/nuxt-template.code-snippets"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/nuxt/nuxt-script.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/nuxt/nuxt-script.code-snippets"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/nuxt/nuxt-script.code-snippets"
+			}
+		]
+	}
+}

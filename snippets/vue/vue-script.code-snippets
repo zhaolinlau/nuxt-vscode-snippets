@@ -1,0 +1,168 @@
+{
+	"Ref - Vue": {
+		"prefix": "vref",
+		"body": [
+			"const ${1:name} = ref(${2:initialValue})"
+		],
+		"description": "Vue Ref"
+	},
+	"Reactive - Vue": {
+		"prefix": "vreactive",
+		"body": [
+			"const ${1:name} = reactive({",
+			"\t${2:count}: ${3:0}",
+			"})"
+		],
+		"description": "Vue reactive"
+	},
+	"Computed - Vue": {
+		"prefix": "vcomputed",
+		"body": [
+			"const ${1:name} = computed(() => {",
+			"\treturn ${2}",
+			"})"
+		],
+		"description": "Vue computed"
+	},
+	"onMounted - Vue Lifecycle Hooks": {
+		"prefix": "vonmounted",
+		"body": [
+			"onMounted(() => {",
+			"\t${1}",
+			"})"
+		],
+		"description": "Vue onMounted Lifecycle hook"
+	},
+	"onBeforeMount - Vue Lifecycle Hooks": {
+		"prefix": "vonbeforemount",
+		"body": [
+			"onBeforeMount(() => {",
+			"\t${1}",
+			"})"
+		],
+		"description": "Vue onBeforeMount Lifecycle hook"
+	},
+	"onBeforeUpdate - Vue Lifecycle Hooks": {
+		"prefix": "vonbeforeupdate",
+		"body": [
+			"onBeforeUpdate(() => {",
+			"\t${1}",
+			"})"
+		],
+		"description": "Vue onBeforeUpdate Lifecycle hook"
+	},
+	"onUpdated - Vue Lifecycle Hooks": {
+		"prefix": "vonupdated",
+		"body": [
+			"onUpdated(() => {",
+			"\t${1}",
+			"})"
+		],
+		"description": "Vue onUpdated Lifecycle hook"
+	},
+	"onErrorCaptured - Vue Lifecycle Hooks": {
+		"prefix": "vonerrorcaptured",
+		"body": [
+			"onErrorCaptured(() => {",
+			"\t${1}",
+			"})"
+		],
+		"description": "Vue onErrorCaptured Lifecycle hook"
+	},
+	"onUnmounted - Vue Lifecycle Hooks": {
+		"prefix": "vonunmounted",
+		"body": [
+			"onUnmounted(() => {",
+			"\t${1}",
+			"})"
+		],
+		"description": "Vue onUnmounted Lifecycle hook"
+	},
+	"onBeforeUnmount - Vue Lifecycle Hooks": {
+		"prefix": "vonbeforeunmount",
+		"body": [
+			"onBeforeUnmount(() => {",
+			"\t${1}",
+			"})"
+		],
+		"description": "Vue onBeforeUnmount Lifecycle hook"
+	},
+	"Define Props - Vue": {
+		"prefix": "vdefineprops",
+		"body": [
+			"defineProps<{",
+			"\t${1:name}: ${2:type}",
+			"}>()"
+		],
+		"description": "Vue defineProps"
+	},
+	"Define Emits - Vue": {
+		"prefix": "vdefineemits",
+		"body": [
+			"defineEmits<{",
+			"\t${1:eventName}: [${2}]",
+			"}>()"
+		],
+		"description": "Vue defineEmits"
+	},
+	"Single Emit - Vue": {
+		"prefix": "vsingleemit",
+		"body": [
+			"${1:eventName}: [${2}]",
+		],
+		"description": "Vue single emit for defineEmits"
+	},
+	"Watch - Vue": {
+		"prefix": "vwatch",
+		"body": [
+			"watch(",
+			"\t() => ${1:name},",
+			"\t() => {",
+			"\t\t${2}",
+			"\t}",
+			")"
+		],
+		"description": "Vue watcher"
+	},
+	"Watch Effect - Vue": {
+		"prefix": "vwatcheffect",
+		"body": [
+			"watchEffect(() => {",
+			"\t${1}",
+			"})"
+		],
+		"description": "Vue Watch Effect"
+	},
+	"Define Slots - Vue": {
+		"prefix": "vdefineslots",
+		"body": [
+			"defineSlots<{",
+			"\tdefault: (props: { ${0} }) => any",
+			"}>()"
+		],
+		"description": "Vue defineSlots"
+	},
+	"Single Slot - Vue": {
+		"prefix": "vsingleslot",
+		"body": [
+			"\t${1:slotName}: (props: { ${0} }) => any",
+		],
+		"description": "Vue single slot for defineSlots"
+	},
+	"Define Options - Vue": {
+		"prefix": "vdefineoptions",
+		"body": [
+			"defineOptions({",
+			"\t${0}",
+			"})"
+		],
+		"description": "Vue defineOptions"
+	},
+	"Define Model - Vue": {
+		"prefix": "vdefinemodel",
+		"body": [
+			"const modelValue = defineModel()",
+		],
+		"description": "Vue defineModel"
+	},
+}
