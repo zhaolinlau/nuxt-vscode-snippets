@@ -1,4 +1,4 @@
-# Nuxt VSCode Snippets
+# Nuxt VS Code Snippets
 
 ![GitHub](https://img.shields.io/github/license/zhaolinlau/nuxt-vscode-snippets)
 ![Nuxt Version](https://img.shields.io/badge/Nuxt-3-00DC82?logo=nuxt)
@@ -25,7 +25,7 @@ Boost your Nuxt development with useful snippets that speed up your workflow. Th
 ## Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for `Nuxt VSCode Snippets` by **zhaolinlau**.
+2. Search for `Nuxt VS Code Snippets` by **zhaolinlau**.
 3. Click **Install** to install it.
 
 ## Usage
