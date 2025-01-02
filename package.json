@@ -1,6 +1,6 @@
 {
-	"name": "nuxt-code-snippets",
-	"displayName": "Nuxt Code Snippets",
+	"name": "nuxt-vscode-snippets",
+	"displayName": "Nuxt VSCode Snippets",
 	"description": "Supercharge your Nuxt development with powerful snippets",
 	"icon": "images/nuxt-logo.png",
 	"version": "1.0.0",
