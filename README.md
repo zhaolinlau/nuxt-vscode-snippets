@@ -43,6 +43,8 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `nlink`       | Nuxt router link            |
 | `nlink-param` | Nuxt router link with param |
 
+- Vue
+
 | Prefix           | Purpose                                                               |
 | ---------------- | --------------------------------------------------------------------- |
 | `vstart`         | start for Vue 3 File with `<script setup>` No style                   |
