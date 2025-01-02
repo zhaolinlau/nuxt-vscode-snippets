@@ -143,6 +143,6 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ## License
 
-[MIT](https://github.com/zhaolinlau/nuxt-vscode-snippets/blob/main/LICENSE) © [Zhaolin Lau](https://github.com/zhaolinlau)
+[MIT](https://github.com/zhaolinlau/nuxt-vscode-snippets/blob/master/LICENSE) © [Zhaolin Lau](https://github.com/zhaolinlau)
 
 **Enjoy!**
