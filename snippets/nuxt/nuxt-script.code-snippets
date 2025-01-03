@@ -19,7 +19,7 @@
 			"await $$fetch('${1:path}',{",
 			"\tmethod: 'POST',",
 			"\tbody: {",
-			"\t\t${2:name}:${3:'name'},",
+			"\t\t${2}",
 			"\t}",
 			"})"
 		],
@@ -31,7 +31,7 @@
 			"await $$fetch('${1:path}',{",
 			"\tmethod: 'PUT',",
 			"\tbody: {",
-			"\t\t${2:name}:${3:'name'},",
+			"\t\t${2}",
 			"\t}",
 			"})"
 		],
@@ -41,7 +41,10 @@
 		"prefix": "ndfetch-delete",
 		"body": [
 			"await $$fetch('${1:path}',{",
-			"\tmethod: 'PUT'",
+			"\tmethod: 'DELETE',",
+			"\tbody: {",
+			"\t\t${2}",
+			"\t}",
 			"})"
 		],
 		"description": "Nuxt $fetch DELETE"
