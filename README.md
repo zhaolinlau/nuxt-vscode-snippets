@@ -141,8 +141,14 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `vdefineoptions`   | Define Options              |
 | `vdefinemodel`     | Define Model                |
 
+## Contributing
+
+This is an open source project open to anyone. Contributions are welcome [github](https://github.com/zhaolinlau/nuxt-vscode-snippets)
+
+If you are contributing a snippet, please be sure to add the documentation for it in the tables in the README, the pull request cannot be accepted without this addition. Thanks!
+
 ## License
 
-[MIT](https://github.com/zhaolinlau/nuxt-vscode-snippets/blob/master/LICENSE) © [Zhaolin Lau](https://github.com/zhaolinlau)
+[MIT](https://github.com/zhaolinlau/nuxt-vscode-snippets/blob/master/LICENSE)
 
-**Enjoy!**
+Copyright © 2025-Present Zhaolin Lau
