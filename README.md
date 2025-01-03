@@ -47,18 +47,18 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 | Prefix           | Purpose                                                               |
 | ---------------- | --------------------------------------------------------------------- |
-| `vstart`         | start for Vue 3 File with `<script setup>` No style                   |
-| `vstart-scss`    | start for Vue 3 File with `<script setup>` Style `SCSS`               |
-| `vstart-sass`    | start for Vue 3 File with `<script setup>` Style `SASS`               |
-| `vstart-less`    | start for Vue 3 File with `<script setup>` Style `LESS`               |
-| `vstart-pcss`    | start for Vue 3 File with `<script setup>` Style `PostCSS`            |
-| `vstart-css`     | start for Vue 3 File with `<script setup>` Style `CSS`                |
-| `vstart-ts`      | start for Vue 3 File with `<script setup lang='ts'>`, No Style        |
-| `vstart-ts-scss` | start for Vue 3 File with `<script setup lang='ts'>`, Style `SCSS`    |
-| `vstart-ts-sass` | start for Vue 3 File with `<script setup lang='ts'>`, Style `SASS`    |
-| `vstart-ts-less` | start for Vue 3 File with `<script setup lang='ts'>`, Style `LESS`    |
-| `vstart-ts-pcss` | start for Vue 3 File with `<script setup lang='ts'>`, Style `PostCSS` |
-| `vstart-ts-css`  | start for Vue 3 File with `<script setup lang='ts'>`, Style `CSS`     |
+| `vbase`         | Base for Vue 3 File with `<script setup>` No style                   |
+| `vbase-scss`    | Base for Vue 3 File with `<script setup>` Style `SCSS`               |
+| `vbase-sass`    | Base for Vue 3 File with `<script setup>` Style `SASS`               |
+| `vbase-less`    | Base for Vue 3 File with `<script setup>` Style `LESS`               |
+| `vbase-pcss`    | Base for Vue 3 File with `<script setup>` Style `PostCSS`            |
+| `vbase-css`     | Base for Vue 3 File with `<script setup>` Style `CSS`                |
+| `vbase-ts`      | Base for Vue 3 File with `<script setup lang='ts'>`, No Style        |
+| `vbase-ts-scss` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `SCSS`    |
+| `vbase-ts-sass` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `SASS`    |
+| `vbase-ts-less` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `LESS`    |
+| `vbase-ts-pcss` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `PostCSS` |
+| `vbase-ts-css`  | Base for Vue 3 File with `<script setup lang='ts'>`, Style `CSS`     |
 
 | Prefix        | Purpose                       |
 | ------------- | ----------------------------- |
@@ -74,7 +74,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 | Prefix               | Purpose                                         |
 | -------------------- | ----------------------------------------------- |
-| `vrouter`            | Vue Router start                                |
+| `vrouter`            | Vue Router base                                |
 | `vscrollbehavior`    | Vue Router `scrollBehavior`                     |
 | `vbeforeeach`        | Vue Router global guards `beforeEach`           |
 | `vbeforeresolve`     | Vue Router global guards `beforeResolve`        |
@@ -88,8 +88,8 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 | Prefix     | Purpose                                                       |
 | ---------- | ------------------------------------------------------------- |
-| `pstart`   | Start code needed for a Pinia store file                      |
-| `pstart-c` | Start code needed for a Pinia store file with Composition API |
+| `pbase`   | Base code needed for a Pinia store file                      |
+| `pbase-c` | Base code needed for a Pinia store file with Composition API |
 
 ### Support File `.vue, .js, .ts`
 
@@ -99,10 +99,10 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | ----------------------- | -------------------------------------------------- |
 | `nfetch`                | `useFetch` composable                              |
 | `nfetch-lazy`           | `useLazyFetch` composable                          |
-| `ndfetch    `           | `$Fetch`                                           |
-| `ndfetch-post`          | `$Fetch` with method POST and Body                 |
-| `ndfetch-put`           | `$Fetch` with method PUT and Body                  |
-| `ndfetch-delete`        | `$Fetch` with method DELETE and Body               |
+| `ndfetch    `           | `$fetch`                                           |
+| `ndfetch-post`          | `$fetch` with method POST and Body                 |
+| `ndfetch-put`           | `$fetch` with method PUT and Body                  |
+| `ndfetch-delete`        | `$fetch` with method DELETE and Body               |
 | `nasyncdata`            | `useAsyncData` composable                          |
 | `nasyncdata-lazy`       | `useLazyAsyncData` composable                      |
 | `nhead`                 | `useHead` composable                               |
@@ -113,9 +113,9 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `npagemeta-layout`      | `definePageMeta` composable with layout            |
 | `npagemeta-middleware`  | `definePageMeta` composable with middleware        |
 | `npagemeta-ml`          | `definePageMeta` composable with middleware layout |
-| `nplugin`               | Start code for Nuxt plugin                         |
-| `nmiddleware`           | Start code for Nuxt middleware                     |
-| `nserver`               | Start code for Nuxt server                         |
+| `nplugin`               | Base code for Nuxt plugin                         |
+| `nmiddleware`           | Base code for Nuxt middleware                     |
+| `nserver`               | Base code for Nuxt server                         |
 
 - Vue
 

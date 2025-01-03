@@ -1,6 +1,6 @@
 {
 	"Vue SFC Setup": {
-		"prefix": "vstart",
+		"prefix": "vbase",
 		"body": [
 			"<script setup>",
 			"\t${0}",
@@ -12,10 +12,10 @@
 			"\t</div>",
 			"</template>"
 		],
-		"description": "Start Vue 3 File with <script setup>, No Style"
+		"description": "Base Vue 3 File with <script setup>, No Style"
 	},
 	"Vue SFC Setup With Style Scss": {
-		"prefix": "vstart-scss",
+		"prefix": "vbase-scss",
 		"body": [
 			"<script setup>",
 			"\t${0}",
@@ -31,10 +31,10 @@
 			"",
 			"</style>"
 		],
-		"description": "Start Vue 3 File with <script setup>, Style SCSS"
+		"description": "Base Vue 3 File with <script setup>, Style SCSS"
 	},
 	"Vue SFC Setup With Style SASS": {
-		"prefix": "vstart-sass",
+		"prefix": "vbase-sass",
 		"body": [
 			"<script setup>",
 			"\t${0}",
@@ -50,10 +50,10 @@
 			"",
 			"</style>"
 		],
-		"description": "Start Vue 3 File with <script setup>, Style SASS"
+		"description": "Base Vue 3 File with <script setup>, Style SASS"
 	},
 	"Vue SFC Setup With Style LESS": {
-		"prefix": "vstart-less",
+		"prefix": "vbase-less",
 		"body": [
 			"<script setup>",
 			"\t${0}",
@@ -69,10 +69,10 @@
 			"",
 			"</style>"
 		],
-		"description": "Start Vue 3 File with <script setup>, Style LESS"
+		"description": "Base Vue 3 File with <script setup>, Style LESS"
 	},
 	"Vue SFC Setup With Style CSS": {
-		"prefix": "vstart-css",
+		"prefix": "vbase-css",
 		"body": [
 			"<script setup>",
 			"\t${0}",
@@ -88,10 +88,10 @@
 			"",
 			"</style>"
 		],
-		"description": "Start Vue 3 File with <script setup>, Style CSS"
+		"description": "Base Vue 3 File with <script setup>, Style CSS"
 	},
 	"Vue SFC Setup With Style postCSS": {
-		"prefix": "vstart-pcss",
+		"prefix": "vbase-pcss",
 		"body": [
 			"<script setup>",
 			"\t${0}",
@@ -107,7 +107,7 @@
 			"",
 			"</style>"
 		],
-		"description": "Start Vue 3 File with <script setup>, Style PostCSS"
+		"description": "Base Vue 3 File with <script setup>, Style PostCSS"
 	},
 	"Vue Script Setup": {
 		"prefix": "vscript",
@@ -119,7 +119,7 @@
 		"description": " Vue 3 <script setup>"
 	},
 	"Vue SFC Setup TypeScript": {
-		"prefix": "vstart-ts",
+		"prefix": "vbase-ts",
 		"body": [
 			"<script setup lang='ts'>",
 			"\t${0}",
@@ -131,10 +131,10 @@
 			"\t</div>",
 			"</template>"
 		],
-		"description": "Start Vue 3 File with <script setup lang='ts'>, No Style"
+		"description": "Base Vue 3 File with <script setup lang='ts'>, No Style"
 	},
 	"Vue SFC Setup With Style Scss, TypeScript": {
-		"prefix": "vstart-ts-scss",
+		"prefix": "vbase-ts-scss",
 		"body": [
 			"<script setup lang='ts'>",
 			"\t${0}",
@@ -150,10 +150,10 @@
 			"",
 			"</style>"
 		],
-		"description": "Start Vue 3 File with <script setup lang='ts'>, Style SCSS"
+		"description": "Base Vue 3 File with <script setup lang='ts'>, Style SCSS"
 	},
 	"Vue SFC Setup With Style SASS, TypeScript": {
-		"prefix": "vstart-ts-sass",
+		"prefix": "vbase-ts-sass",
 		"body": [
 			"<script setup lang='ts'>",
 			"\t${0}",
@@ -169,10 +169,10 @@
 			"",
 			"</style>"
 		],
-		"description": "Start Vue 3 File with <script setup lang='ts'>, Style SASS"
+		"description": "Base Vue 3 File with <script setup lang='ts'>, Style SASS"
 	},
 	"Vue SFC Setup With Style LESS, TypeScript": {
-		"prefix": "vstart-ts-less",
+		"prefix": "vbase-ts-less",
 		"body": [
 			"<script setup lang='ts'>",
 			"\t${0}",
@@ -188,10 +188,10 @@
 			"",
 			"</style>"
 		],
-		"description": "Start Vue 3 File with <script setup lang='ts'>, Style LESS"
+		"description": "SBase Vue 3 File with <script setup lang='ts'>, Style LESS"
 	},
 	"Vue SFC Setup With Style CSS, TypeScript": {
-		"prefix": "vstart-ts-css",
+		"prefix": "vbase-ts-css",
 		"body": [
 			"<script setup lang='ts'>",
 			"\t${0}",
@@ -207,10 +207,10 @@
 			"",
 			"</style>"
 		],
-		"description": "Start Vue 3 File with <script setup lang='ts'>, Style CSS"
+		"description": "Base Vue 3 File with <script setup lang='ts'>, Style CSS"
 	},
 	"Vue SFC Setup With Style postCSS, TypeScript": {
-		"prefix": "vstart-ts-pcss",
+		"prefix": "vbase-ts-pcss",
 		"body": [
 			"<script setup lang='ts'>",
 			"\t${0}",
@@ -226,7 +226,7 @@
 			"",
 			"</style>"
 		],
-		"description": "Start Vue 3 File with <script setup lang='ts'>, Style PostCSS"
+		"description": "Base Vue 3 File with <script setup lang='ts'>, Style PostCSS"
 	},
 	"Vue Script Setup TypeScript": {
 		"prefix": "vscript-ts",

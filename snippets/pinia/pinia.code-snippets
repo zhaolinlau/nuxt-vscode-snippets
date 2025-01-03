@@ -1,6 +1,6 @@
 {
-	"Pinia Store Start": {
-		"prefix": "pstart",
+	"Pinia Store Base": {
+		"prefix": "pbase",
 		"body": [
 			"import { defineStore, acceptHMRUpdate } from \"pinia\"",
 			"",
@@ -17,10 +17,10 @@
 			"}",
 			""
 		],
-		"description": "Start code needed for a Pinia store file"
+		"description": "Base code needed for a Pinia store file"
 	},
-	"Pinia Store Start - Composition API": {
-		"prefix": "pstart-c",
+	"Pinia Store Base - Composition API": {
+		"prefix": "pbase-c",
 		"body": [
 			"import { defineStore, acceptHMRUpdate } from \"pinia\"",
 			"",
@@ -33,6 +33,6 @@
 			"}",
 			""
 		],
-		"description": "Start code needed for a Pinia store file with Composition API"
+		"description": "Base code needed for a Pinia store file with Composition API"
 	}
 }
