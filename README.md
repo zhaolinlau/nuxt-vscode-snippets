@@ -45,8 +45,8 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 - Vue
 
-| Prefix           | Purpose                                                               |
-| ---------------- | --------------------------------------------------------------------- |
+| Prefix          | Purpose                                                              |
+| --------------- | -------------------------------------------------------------------- |
 | `vbase`         | Base for Vue 3 File with `<script setup>` No style                   |
 | `vbase-scss`    | Base for Vue 3 File with `<script setup>` Style `SCSS`               |
 | `vbase-sass`    | Base for Vue 3 File with `<script setup>` Style `SASS`               |
@@ -74,7 +74,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 | Prefix               | Purpose                                         |
 | -------------------- | ----------------------------------------------- |
-| `vrouter`            | Vue Router base                                |
+| `vrouter`            | Vue Router base                                 |
 | `vscrollbehavior`    | Vue Router `scrollBehavior`                     |
 | `vbeforeeach`        | Vue Router global guards `beforeEach`           |
 | `vbeforeresolve`     | Vue Router global guards `beforeResolve`        |
@@ -86,8 +86,8 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 - Pinia
 
-| Prefix     | Purpose                                                       |
-| ---------- | ------------------------------------------------------------- |
+| Prefix    | Purpose                                                      |
+| --------- | ------------------------------------------------------------ |
 | `pbase`   | Base code needed for a Pinia store file                      |
 | `pbase-c` | Base code needed for a Pinia store file with Composition API |
 
@@ -113,9 +113,13 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `npagemeta-layout`      | `definePageMeta` composable with layout            |
 | `npagemeta-middleware`  | `definePageMeta` composable with middleware        |
 | `npagemeta-ml`          | `definePageMeta` composable with middleware layout |
-| `nplugin`               | Base code for Nuxt plugin                         |
-| `nmiddleware`           | Base code for Nuxt middleware                     |
-| `nserver`               | Base code for Nuxt server                         |
+| `nplugin`               | Base code for Nuxt plugin                          |
+| `nmiddleware`           | Base code for Nuxt middleware                      |
+| `nserver`               | Base code for Nuxt server                          |
+| `nerr`                  | `useError` composable                              |
+| `ncerr`                 | `createError` utility                              |
+| `nshwerr`               | `showError` utility                                |
+| `nclrerr`               | `clearError` utility                               |
 
 - Vue
 
