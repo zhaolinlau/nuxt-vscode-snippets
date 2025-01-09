@@ -187,4 +187,32 @@
 		],
 		"description": "Base code for Nuxt server"
 	},
+	"Nuxt useError": {
+		"prefix": "nerr",
+		"body": [
+			"useError()"
+		],
+		"description": "Nuxt useError composable"
+	},
+	"Nuxt createError": {
+		"prefix": "ncerr",
+		"body": [
+			"throw createError(${0:err})"
+		],
+		"description": "Nuxt createError utility"
+	},
+	"Nuxt showError": {
+		"prefix": "nshwerr",
+		"body": [
+			"showError(${0:error})"
+		],
+		"description": "Nuxt showError utility"
+	},
+	"Nuxt clearError": {
+		"prefix": "nclrerr",
+		"body": [
+			"clearError(${0:options})"
+		],
+		"description": "Nuxt clearError utility"
+	}
 }
