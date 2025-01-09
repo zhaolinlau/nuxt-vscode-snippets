@@ -4,6 +4,15 @@ All notable changes to the "nuxt-vscode-snippets" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.1.0
+
+### Added
+
+- `nerr`: Snippet for the Nuxt `useError` composable
+- `ncerr`: Snippet for the Nuxt `createError` utility
+- `nshwerr`: Snippet for the Nuxt `showError` utility
+- `nclrerr`: Snippet for the Nuxt `clearError` utility
+
 ## 2.0.0
 
 - Update vstart and pstart prefix to vbase and pbase
