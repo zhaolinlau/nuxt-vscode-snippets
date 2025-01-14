@@ -249,5 +249,19 @@
 			"clearError(${0:options})"
 		],
 		"description": "Nuxt clearError utility"
+	},
+	"Nuxt useRoute": {
+		"prefix": "nroute",
+		"body": [
+			"const route = useRoute()"
+		],
+		"description": "Nuxt useRoute composable"
+	},
+	"Nuxt useRouter": {
+		"prefix": "nrouter",
+		"body": [
+			"const router = useRouter()"
+		],
+		"description": "Nuxt useRouter composable"
 	}
 }
