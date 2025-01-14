@@ -125,6 +125,8 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `ncerr`                 | `createError` utility                              |
 | `nshwerr`               | `showError` utility                                |
 | `nclrerr`               | `clearError` utility                               |
+| `nroute`                | `useRoute` composable                              |
+| `nrouter`               | `useRouter` composable                             |
 
 - Vue
 

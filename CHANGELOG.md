@@ -4,6 +4,17 @@ All notable changes to the "nuxt-vscode-snippets" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.3.0
+
+### Added
+
+- `nroute`: Snippet for the Nuxt `useRoute` composable
+- `nrouter`: Snippet for the Nuxt `useRouter` composable
+
+### Fixes
+
+Remove deprecated `pending` from fetching composables
+
 ## 2.2.0
 
 ### Added
