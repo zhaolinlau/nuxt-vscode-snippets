@@ -70,6 +70,41 @@
 		],
 		"description": "Nuxt useLazyAsyncData composable"
 	},
+	"Nuxt useRequestHeaders": {
+		"prefix": "nreqheaders",
+		"body": [
+			"useRequestHeaders()"
+		],
+		"description": "Nuxt useRequestHeaders composable"
+	},
+	"Nuxt useRequestFetch": {
+		"prefix": "nreqfetch",
+		"body": [
+			"useRequestFetch()"
+		],
+		"description": "Nuxt useRequestFetch composable"
+	},
+	"Nuxt useNuxtData": {
+		"prefix": "ndata",
+		"body": [
+			"useNuxtData(${0:key})"
+		],
+		"description": "Nuxt useNuxtData composable"
+	},
+	"Nuxt refreshNuxtData": {
+		"prefix": "nrfshdata",
+		"body": [
+			"refreshNuxtData(${0:keys})"
+		],
+		"description": "Nuxt refreshNuxtData utility"
+	},
+	"Nuxt clearNuxtData": {
+		"prefix": "nclrdata",
+		"body": [
+			"clearNuxtData(${0:keys})"
+		],
+		"description": "Nuxt clearNuxtData utility"
+	},
 	"Nuxt useHead": {
 		"prefix": "nhead",
 		"body": [
