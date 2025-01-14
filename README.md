@@ -105,6 +105,11 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `ndfetch-delete`        | `$fetch` with method DELETE and Body               |
 | `nasyncdata`            | `useAsyncData` composable                          |
 | `nasyncdata-lazy`       | `useLazyAsyncData` composable                      |
+| `nreqheaders`           | `useRequestHeaders` composable                     |
+| `nreqfetch`             | `useRequestFetch` composable                       |
+| `ndata`                 | `useNuxtData` composable                           |
+| `nrfshdata`             | `refreshNuxtData` utility                          |
+| `nclrdata`              | `clearNuxtData` utility                            |
 | `nhead`                 | `useHead` composable                               |
 | `nhead-description`     | `useHead` composable with description              |
 | `nhead-template`        | `useHead` composable with title template           |

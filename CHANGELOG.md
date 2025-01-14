@@ -4,6 +4,16 @@ All notable changes to the "nuxt-vscode-snippets" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.2.0
+
+### Added
+
+- `nreqheaders`: Snippet for the Nuxt `useRequestHeaders` composable
+- `nreqfetch`: Snippet for the Nuxt `useRequestFetch` composable
+- `ndata`: Snippet for the Nuxt `useNuxtData` composable
+- `nrfshdata`: Snippet for the Nuxt `refreshNuxtData` utility
+- `nclrdata`: Snippet for the Nuxt `clearNuxtData` utility
+
 ## 2.1.0
 
 ### Added
