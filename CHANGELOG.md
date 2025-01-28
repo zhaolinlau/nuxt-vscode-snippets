@@ -4,6 +4,16 @@ All notable changes to the "nuxt-vscode-snippets" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.5.0
+
+### Added
+
+- `vtrans` Snippet for the Vue `<Transition>` component
+- `vtransgroup` Snippet for the Vue `<TransitionGroup>` component
+- `vkeepalive` Snippet for the Vue `<KeepAlive>` component
+- `vtp` Snippet for the Vue `<Teleport>` component
+- `vsuspense` Snippet for the Vue `<Suspense>` component
+
 ## 2.4.1
 
 ### Fixes

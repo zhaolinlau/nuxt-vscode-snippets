@@ -34,68 +34,18 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ## Snippets
 
-### Support File `.vue`
+### Nuxt
 
-- Nuxt
+#### Components
 
 | Prefix        | Purpose                     |
 | ------------- | --------------------------- |
-| `npage`       | `<NuxtPage />`              |
-| `nlayout`     | `<NuxtLayout></NuxtLayout>` |
+| `npage`       | `<NuxtPage>`                |
+| `nlayout`     | `<NuxtLayout>`              |
 | `nlink`       | Nuxt router link            |
 | `nlink-param` | Nuxt router link with param |
 
-- Vue
-
-| Prefix          | Purpose                                                              |
-| --------------- | -------------------------------------------------------------------- |
-| `vbase`         | Base for Vue 3 File with `<script setup>` No style                   |
-| `vbase-scss`    | Base for Vue 3 File with `<script setup>` Style `SCSS`               |
-| `vbase-sass`    | Base for Vue 3 File with `<script setup>` Style `SASS`               |
-| `vbase-less`    | Base for Vue 3 File with `<script setup>` Style `LESS`               |
-| `vbase-pcss`    | Base for Vue 3 File with `<script setup>` Style `PostCSS`            |
-| `vbase-css`     | Base for Vue 3 File with `<script setup>` Style `CSS`                |
-| `vbase-ts`      | Base for Vue 3 File with `<script setup lang='ts'>`, No Style        |
-| `vbase-ts-scss` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `SCSS`    |
-| `vbase-ts-sass` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `SASS`    |
-| `vbase-ts-less` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `LESS`    |
-| `vbase-ts-pcss` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `PostCSS` |
-| `vbase-ts-css`  | Base for Vue 3 File with `<script setup lang='ts'>`, Style `CSS`     |
-
-| Prefix        | Purpose                       |
-| ------------- | ----------------------------- |
-| `vscript`     | `<script setup>`              |
-| `vscript-ts`  | `<script setup lang='ts'>`    |
-| `vtemplate`   | `<template></template>`       |
-| `vfor`        | `v-for` statement             |
-| `vslot-named` | `<template #name></template>` |
-
-### Support File `.js, .ts`
-
-- Vue Router
-
-| Prefix               | Purpose                                         |
-| -------------------- | ----------------------------------------------- |
-| `vrouter`            | Vue Router base                                 |
-| `vscrollbehavior`    | Vue Router `scrollBehavior`                     |
-| `vbeforeeach`        | Vue Router global guards `beforeEach`           |
-| `vbeforeresolve`     | Vue Router global guards `beforeResolve`        |
-| `vaftereach`         | Vue Router global guards `afterEach`            |
-| `vbeforeenter`       | Vue Router per-route guard `beforeEnter`        |
-| `vbeforerouteenter`  | Vue Router component guards `beforeRouteEnter`  |
-| `vbeforerouteupdate` | Vue Router component guards `beforeRouteUpdate` |
-| `vbeforerouteleave`  | Vue Router component guards `beforeRouteLeave`  |
-
-- Pinia
-
-| Prefix    | Purpose                                                      |
-| --------- | ------------------------------------------------------------ |
-| `pbase`   | Base code needed for a Pinia store file                      |
-| `pbase-c` | Base code needed for a Pinia store file with Composition API |
-
-### Support File `.vue, .js, .ts`
-
-- Nuxt
+#### Composables & Utilities
 
 | Prefix                  | Purpose                                            |
 | ----------------------- | -------------------------------------------------- |
@@ -130,7 +80,41 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `nroute`                | `useRoute` composable                              |
 | `nrouter`               | `useRouter` composable                             |
 
-- Vue
+### Vue
+
+#### Templates
+
+| Prefix          | Purpose                                                              |
+| --------------- | -------------------------------------------------------------------- |
+| `vbase`         | Base for Vue 3 File with `<script setup>` No style                   |
+| `vbase-scss`    | Base for Vue 3 File with `<script setup>` Style `SCSS`               |
+| `vbase-sass`    | Base for Vue 3 File with `<script setup>` Style `SASS`               |
+| `vbase-less`    | Base for Vue 3 File with `<script setup>` Style `LESS`               |
+| `vbase-pcss`    | Base for Vue 3 File with `<script setup>` Style `PostCSS`            |
+| `vbase-css`     | Base for Vue 3 File with `<script setup>` Style `CSS`                |
+| `vbase-ts`      | Base for Vue 3 File with `<script setup lang='ts'>`, No Style        |
+| `vbase-ts-scss` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `SCSS`    |
+| `vbase-ts-sass` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `SASS`    |
+| `vbase-ts-less` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `LESS`    |
+| `vbase-ts-pcss` | Base for Vue 3 File with `<script setup lang='ts'>`, Style `PostCSS` |
+| `vbase-ts-css`  | Base for Vue 3 File with `<script setup lang='ts'>`, Style `CSS`     |
+| `vscript`       | `<script setup>`                                                     |
+| `vscript-ts`    | `<script setup lang='ts'>`                                           |
+| `vtemplate`     | `<template></template>`                                              |
+| `vfor`          | `v-for` statement                                                    |
+| `vslot-named`   | `<template #name></template>`                                        |
+
+#### Components
+
+| Prefix        | Purpose             |
+| ------------- | ------------------- |
+| `vtrans`      | `<Transition>`      |
+| `vtransgroup` | `<TransitionGroup>` |
+| `vkeepalive`  | `<KeepAlive>`       |
+| `vtp`         | `<Teleport>`        |
+| `vsuspense`   | `<Suspense>`        |
+
+#### Scripts
 
 | Prefix             | Purpose                     |
 | ------------------ | --------------------------- |
@@ -153,6 +137,25 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `vsingleslot`      | Single slot for defineSlots |
 | `vdefineoptions`   | Define Options              |
 | `vdefinemodel`     | Define Model                |
+
+#### Router
+
+| `vrouter`            | Vue Router base                                 |
+| `vscrollbehavior`    | Vue Router `scrollBehavior`                     |
+| `vbeforeeach`        | Vue Router global guards `beforeEach`           |
+| `vbeforeresolve`     | Vue Router global guards `beforeResolve`        |
+| `vaftereach`         | Vue Router global guards `afterEach`            |
+| `vbeforeenter`       | Vue Router per-route guard `beforeEnter`        |
+| `vbeforerouteenter`  | Vue Router component guards `beforeRouteEnter`  |
+| `vbeforerouteupdate` | Vue Router component guards `beforeRouteUpdate` |
+| `vbeforerouteleave`  | Vue Router component guards `beforeRouteLeave`  |
+
+### Pinia
+
+| Prefix    | Purpose                                                      |
+| --------- | ------------------------------------------------------------ |
+| `pbase`   | Base code needed for a Pinia store file                      |
+| `pbase-c` | Base code needed for a Pinia store file with Composition API |
 
 ## Contributing
 

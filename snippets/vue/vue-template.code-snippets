@@ -24,4 +24,49 @@
 		],
 		"description": "v-for statement"
 	},
+	"Vue <Transition>": {
+		"prefix": "vtrans",
+		"body": [
+			"<Transition>",
+			"\t$0",
+			"</Transition>"
+		],
+		"description": "<Transition> component"
+	},
+	"Vue <TransitionGroup>": {
+		"prefix": "vtransgroup",
+		"body": [
+			"<TransitionGroup>",
+			"\t$0",
+			"</TransitionGroup>"
+		],
+		"description": "<TransitionGroup> component"
+	},
+	"Vue <KeepAlive>": {
+		"prefix": "vkeepalive",
+		"body": [
+			"<KeepAlive>",
+			"\t$0",
+			"</KeepAlive>"
+		],
+		"description": "<KeepAlive> component"
+	},
+	"Vue <Teleport>": {
+		"prefix": "vtp",
+		"body": [
+			"<Teleport to=\"${1}\">",
+			"\t${2}",
+			"</Teleport>"
+		],
+		"description": "<Teleport> component"
+	},
+	"Vue <Suspense>": {
+		"prefix": "vsuspense",
+		"body": [
+			"<Teleport to=\"${1}\">",
+			"\t${2}",
+			"</Teleport>"
+		],
+		"description": "<Teleport> component"
+	}
 }
