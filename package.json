@@ -3,7 +3,7 @@
 	"displayName": "Nuxt VS Code Snippets",
 	"description": "Supercharge your Nuxt development with powerful snippets",
 	"icon": "images/nuxt-logo.png",
-	"version": "2.3.0",
+	"version": "2.3.1",
 	"publisher": "zhaolinlau",
 	"license": "MIT",
 	"author": {
@@ -40,7 +40,7 @@
 	},
 	"scripts": {
 		"build": "vsce package -o nuxt-vscode-snippets-$npm_package_version.vsix",
-		"install": "pnpm build && code --install-extension nuxt-vscode-snippets-$npm_package_version.vsix"
+		"install": "npm run build && code --install-extension nuxt-vscode-snippets-$npm_package_version.vsix"
 	},
 	"contributes": {
 		"languages": [

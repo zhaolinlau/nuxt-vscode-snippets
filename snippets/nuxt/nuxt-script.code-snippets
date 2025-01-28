@@ -225,28 +225,34 @@
 	"Nuxt useError": {
 		"prefix": "nerr",
 		"body": [
-			"useError()"
+			"const error = useError()"
 		],
 		"description": "Nuxt useError composable"
 	},
 	"Nuxt createError": {
 		"prefix": "ncerr",
 		"body": [
-			"throw createError(${0:err})"
+			"createError({",
+			"\tstatusCode: ${1},",
+			"\tstatusMessage: ${2}",
+			"})"
 		],
 		"description": "Nuxt createError utility"
 	},
 	"Nuxt showError": {
 		"prefix": "nshwerr",
 		"body": [
-			"showError(${0:error})"
+			"showError({",
+			"\tstatusCode: ${1},",
+			"\tstatusMessage: ${2}",
+			"})"
 		],
 		"description": "Nuxt showError utility"
 	},
 	"Nuxt clearError": {
 		"prefix": "nclrerr",
 		"body": [
-			"clearError(${0:options})"
+			"clearError({ redirect: ${0}})"
 		],
 		"description": "Nuxt clearError utility"
 	},

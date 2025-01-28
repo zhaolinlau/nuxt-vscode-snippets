@@ -4,6 +4,12 @@ All notable changes to the "nuxt-vscode-snippets" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.3.1
+
+### Fixes
+
+- Adjust snippet for the Nuxt error handling
+
 ## 2.3.0
 
 ### Added
