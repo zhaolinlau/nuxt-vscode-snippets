@@ -3,7 +3,7 @@
 	"displayName": "Nuxt VS Code Snippets",
 	"description": "Supercharge your Nuxt development with powerful snippets",
 	"icon": "images/nuxt-logo.png",
-	"version": "2.5.0",
+	"version": "2.5.1",
 	"publisher": "zhaolinlau",
 	"license": "MIT",
 	"author": {

@@ -140,6 +140,8 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 #### Router
 
+| Prefix               | Purpose                                         |
+| -------------------- | ----------------------------------------------- |
 | `vrouter`            | Vue Router base                                 |
 | `vscrollbehavior`    | Vue Router `scrollBehavior`                     |
 | `vbeforeeach`        | Vue Router global guards `beforeEach`           |

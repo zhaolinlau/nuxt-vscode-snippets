@@ -4,6 +4,12 @@ All notable changes to the "nuxt-vscode-snippets" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.5.1
+
+### Fixes
+
+- Fix router table
+
 ## 2.5.0
 
 ### Added
