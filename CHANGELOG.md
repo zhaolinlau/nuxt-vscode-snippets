@@ -4,6 +4,13 @@ All notable changes to the "nuxt-vscode-snippets" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.4.0
+
+### Added
+
+- `npage`: Snippet for the Nuxt `<NuxtPage>` component
+- `nlayout`: Snippet for the Nuxt `<NuxtLayout>` component
+
 ## 2.3.1
 
 ### Fixes

@@ -13,4 +13,20 @@
 		],
 		"description": "Nuxt router link with param"
 	},
+	"NuxtPage": {
+		"prefix": "npage",
+		"body": [
+			"<NuxtPage />"
+		],
+		"description": "Nuxt page"
+	},
+	"NuxtLayout": {
+		"prefix": "nlayout",
+		"body": [
+			"<NuxtLayout>",
+			"\t${0}",
+			"</NuxtLayout>"
+		],
+		"description": "Nuxt layout"
+	}
 }

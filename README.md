@@ -40,6 +40,8 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 | Prefix        | Purpose                     |
 | ------------- | --------------------------- |
+| `npage`       | `<NuxtPage />`              |
+| `nlayout`     | `<NuxtLayout></NuxtLayout>` |
 | `nlink`       | Nuxt router link            |
 | `nlink-param` | Nuxt router link with param |
 
