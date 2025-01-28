@@ -79,6 +79,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `nclrerr`               | `clearError` utility                               |
 | `nroute`                | `useRoute` composable                              |
 | `nrouter`               | `useRouter` composable                             |
+| `nmodule`               | Base code for Nuxt module                          |
 
 ### Vue
 

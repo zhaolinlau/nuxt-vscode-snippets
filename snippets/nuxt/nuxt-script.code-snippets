@@ -269,5 +269,14 @@
 			"const router = useRouter()"
 		],
 		"description": "Nuxt useRouter composable"
+	},
+	"Nuxt define module": {
+		"prefix": "nmodule",
+		"body": [
+			"export default defineNuxtModule((options, nuxt) => {",
+			"\t${0}",
+			"})",
+		],
+		"description": "Base code for Nuxt module"
 	}
 }
