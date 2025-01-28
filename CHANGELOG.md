@@ -4,6 +4,12 @@ All notable changes to the "nuxt-vscode-snippets" extension will be documented i
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.4.1
+
+### Fixes
+
+- Fix component snippets not working inside `<template></template>`
+
 ## 2.4.0
 
 ### Added

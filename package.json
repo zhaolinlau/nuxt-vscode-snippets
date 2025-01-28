@@ -3,7 +3,7 @@
 	"displayName": "Nuxt VS Code Snippets",
 	"description": "Supercharge your Nuxt development with powerful snippets",
 	"icon": "images/nuxt-logo.png",
-	"version": "2.4.0",
+	"version": "2.4.1",
 	"publisher": "zhaolinlau",
 	"license": "MIT",
 	"author": {
@@ -61,12 +61,12 @@
 				"path": "./snippets/vue/vue.code-snippets"
 			},
 			{
-				"language": "vue",
+				"language": "html",
 				"path": "./snippets/vue/vue-template.code-snippets"
 			},
 			{
-				"language": "vue",
-				"path": "./snippets/vue/vue-script.code-snippets"
+				"language": "vue-html",
+				"path": "./snippets/vue/vue-template.code-snippets"
 			},
 			{
 				"language": "javascript",
@@ -93,12 +93,12 @@
 				"path": "./snippets/pinia/pinia.code-snippets"
 			},
 			{
-				"language": "vue",
+				"language": "html",
 				"path": "./snippets/nuxt/nuxt-template.code-snippets"
 			},
 			{
-				"language": "vue",
-				"path": "./snippets/nuxt/nuxt-script.code-snippets"
+				"language": "vue-html",
+				"path": "./snippets/nuxt/nuxt-template.code-snippets"
 			},
 			{
 				"language": "javascript",
